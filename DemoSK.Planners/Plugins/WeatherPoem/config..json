@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "description": "Writes a short funny poes on weather conditions and cloths to wear accordingly",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 500,
+      "temperature": 0.5
+    }
+  },
+  "input_variables": [
+    {
+      "name": "location",
+      "description": "Location",
+      "default": ""
+    },
+    {
+      "name": "weather_forecast",
+      "description": "Brief description of the weather forecast including condition and temperature",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Use the following steps to encode string:
+1. convert string to uppercase;
+2. insert the symbol '.' between all letters;
+3. add the "#" character to the beginning and the end of the line;
+
+For example:
+input: "Code"
+output: "#C.O.D.E#" 
+
+
+input: {{$input}}
+output:

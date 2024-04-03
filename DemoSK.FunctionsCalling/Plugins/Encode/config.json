@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "description": "Encode the string in MY_FRM format.",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 200,
+      "temperature": 1
+    }
+  },
+  "input_variables": [
+    {
+      "name": "input",
+      "description": "Text to encode",
+      "default": ""
+    }
+  ]
+}

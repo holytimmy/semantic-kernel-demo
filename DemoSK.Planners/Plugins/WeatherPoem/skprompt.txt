@@ -1,0 +1,22 @@
+## Instructions
+Write a short, funny poem about what clothes to wear depending on weather conditions and temperature. 
+Clothing should be strictly appropriate to the weather condition and temperature. 
+Use the location name in the poem.
+
+The name of the city should be given from the 'city_name' input below.
+The weather conditions should be taken from the 'weather_forecast' JSON input string below, containing the corresponding 'weather_conditions' field.
+Current temperature should be taken from the 'weather_forecast' JSON input string below, containing the corresponding 'temperature' field.
+Do not produce any others city names, weather forecast and temperature.
+
+The poem is strictly restricted to 2 * 4 stanzas (no more and no less). 
+
+## User Input Format	
+{{$city_name}}
+{{$weather_forecast}}
+
+## Output
+----------------------------------------------
+Current temperature: [temperature value in celsius and fahringheit]
+Current temperature: [weather condition value]
+----------------------------------------------
+[poem text]
